@@ -1,0 +1,131 @@
+p{
+    margin:4px 0px;
+    
+}
+li {
+     margin: 4px;
+}
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b9cea;
+    padding: 1rem 2rem;
+    color: white;
+  }
+
+  .logo{
+    font-size: 2rem;
+     font-weight:bold;
+     
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 0.6rem;
+    color: rgb(237, 221, 221);
+      
+  }
+  .section{
+    margin: auto;
+    max-width: 800px;
+  }  
+  .nav-links a:hover {
+    color: #c490ef;
+  }
+
+.nav-links a {
+  color: black;
+ 
+}
+
+h2 {
+    color: #0077b6;
+    margin-bottom: 1rem;
+  }
+ footer{
+    text-align: center;
+    padding: 3rem 3rem; 
+    background-color: #0077b6;
+    color: white;
+    margin-top: 2rem
+ }
+
+ section {
+  background-color: white;
+  margin: 60px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+  .section:hover {
+    transform: scale(1.01);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+
+}
+
+.yash{
+  border-radius:50%;
+  height:200px;
+  width:200px;
+  margin-right: auto;
+  
+}
+.checkbox{
+display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+  @media (max-width: 768px) {
+    .nav-links  {
+        flex-direction: column;
+        align-items:flex-start;
+        padding: 10px;
+         font-size: small;
+    }
+    @media (max-width: 480px) {
+      /* Styles specific to small mobile devices like Oppo A78 5G */
+    
+      body {
+        font-size: 15px;
+        padding: 8px;
+      }
+    
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .nav-links {
+        flex-direction: column;
+        gap: 8px;
+      }
+    
+      .yash {
+        width: 130px;
+        margin-bottom: 10px;
+      }
+    
+      .section {
+        padding: 10px;
+      }
+    
+      footer {
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+    
+    
